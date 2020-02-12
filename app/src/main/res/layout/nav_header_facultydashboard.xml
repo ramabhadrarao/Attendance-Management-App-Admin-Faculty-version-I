@@ -35,6 +35,6 @@
         android:id="@+id/nav_username_fac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="uername@iiitnr.edu.in" />
+        android:text="uername@gmail.com" />
 
 </LinearLayout>

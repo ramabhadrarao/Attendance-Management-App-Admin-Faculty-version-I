@@ -19,6 +19,14 @@
                 android:id="@+id/nav_fac_backstdreg_btn"
                 android:icon="@drawable/add_person_icon"
                 android:title="Register Backlog Student" />
+
+            <!--
+            <item
+                android:id="@+id/nav_fac_atten_sheet_creation_btn"
+                android:icon="@drawable/accout_crestion_logo"
+                android:title="Attendance Sheet Creation" />
+
+            -->
         </menu>
 
     </item>

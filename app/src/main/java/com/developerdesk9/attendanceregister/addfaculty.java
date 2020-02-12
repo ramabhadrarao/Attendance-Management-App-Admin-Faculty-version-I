@@ -85,7 +85,7 @@ public class addfaculty extends AppCompatActivity {
         mProgress.setCanceledOnTouchOutside(false);
         mProgress.show();
 
-        mEmail=tid+"@iiitnr.edu.in";
+        mEmail=tid+"gmail.com";
         mPassword=tpass;
 
         type="faculty";

@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity{
     public void checklogin(){
 
         String mEmail,mPassword;
-        mEmail=userid+"@iiitnr.edu.in";
+        mEmail=userid+"@gmail.com";
         mPassword=pass;
 
         defaultAuth.signInWithEmailAndPassword(mEmail, mPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

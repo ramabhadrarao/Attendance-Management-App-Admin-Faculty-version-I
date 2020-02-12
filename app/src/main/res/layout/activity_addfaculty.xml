@@ -42,16 +42,15 @@
 
         <EditText
             android:id="@+id/facemail_et"
-            android:textColor="#2B2727"
-            android:background="@drawable/inputs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/inputs"
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName"
-            />
+            android:textColor="#2B2727" />
 
 
         <EditText

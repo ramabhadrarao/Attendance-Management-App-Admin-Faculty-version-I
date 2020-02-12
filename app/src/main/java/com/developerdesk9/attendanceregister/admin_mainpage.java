@@ -139,7 +139,7 @@ public class admin_mainpage extends AppCompatActivity
 
                 musernam=tid;
 
-                musernam=musernam+"@iiitnr.edu.in";
+                musernam=musernam+"@gmail.com";
                  nav_username.setText(musernam);
             }
 

@@ -11,13 +11,19 @@
     <string name="title_activity_facultydashboard">facultydashboard</string>
 
     <string name="okk">
-        PSS presents you the Attendance Register,an android application
-        to manage the attendance of the students of an institution.
-        This utility app not only focuses on maintaining the paperless records
-        of attendance of students,but also calculates the realtime average and
-        the number of students present in a particular class.Whole data is saved
-        in cloud so no hassle of having any paperwork.
+        This application is developed by Team @developerdesk9.Inc
+        App by Saurabh Pandey and Web by Saurabh Roy.
+        \n\n
 
-        This Wondrous Application is developed under supervision of Dr.Muneendra Ojha
-        by Saurabh Pandey,Saurabh Roy and Prahlad Kumar .</string>
+        Copying any part of this application is strictly prohibited without the permission of company and developer.
+
+        \n\n
+
+        For any query and assistant feel free to contact.
+        \n\n
+        Email: developerdesk9@gmail.com
+        \n\n
+           Copyright&#169;2020
+
+    </string>
 </resources>

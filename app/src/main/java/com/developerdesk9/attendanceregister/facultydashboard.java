@@ -141,7 +141,7 @@ public class facultydashboard extends AppCompatActivity
                 nav_name.setText(mname);
 
                 musernam=dataSnapshot.child(tid).child("tid").getValue(String.class);
-                musernam=musernam+"@iiitnr.edu.in";
+                musernam=musernam+"@gmail.com";
                 nav_username.setText(musernam);
             }
 
