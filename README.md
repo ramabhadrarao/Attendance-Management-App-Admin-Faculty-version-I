@@ -33,9 +33,31 @@ Attendance Register is an android based Attendance management solution.
 
 # Screenshots #
 
-### Admin 
+### Basic layout
 
-### Faculty
+|<img src="Documentation/Snapshots/Admin/splashscreen.jpg" width="267">|<img src="Documentation/Snapshots/Admin/Administrative_loginpage.jpg" width="267">|<img src="Documentation/Snapshots/Admin/forget_password.jpg" width="267">|
+|:--:|:--:|:--:|
+|**Splashscreen**|**Administrative login**|**Forgot Password**|
+
+|<img src="Documentation/Snapshots/Faculty/internet_check.jpg" width="33%">|
+|:--:|
+|**Internet Check**|
+
+
+
+### Admin Section
+
+|<img src="Documentation/Snapshots/Admin/admin_login.jpg" width="267">|<img src="Documentation/Snapshots/Admin/admin_main page.jpg" width="267">|<img src="Documentation/Snapshots/Admin/admin_drawer.jpg" width="267">|
+|:--:|:--:|:--:|
+|**Admin Authentication**|**Admin dashboard**|**Naviagtion drawer**|
+
+
+### Faculty Section
+
+|<img src="Documentation/Snapshots/Faculty/faculty_login.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/faculty_dashboard.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/faculty_navigation_drawer.jpg" width="267">|
+|:--:|:--:|:--:|
+|**Faculty authentication**|**Faculty Dashboard**|**Navigation Drawer**|
+
 
 
 ## Tools Used
