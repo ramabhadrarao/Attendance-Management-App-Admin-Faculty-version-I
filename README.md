@@ -33,6 +33,8 @@ Attendance Register is an android based Attendance management solution.
 
 # Screenshots #
 
+Here are the few screenshots, for detailed UI guide [Click here](FEATURE_SCREENSHOT.md)
+
 ### Basic layout
 
 |<img src="Documentation/Snapshots/Admin/splashscreen.jpg" width="267">|<img src="Documentation/Snapshots/Admin/Administrative_loginpage.jpg" width="267">|<img src="Documentation/Snapshots/Admin/forget_password.jpg" width="267">|
@@ -47,18 +49,22 @@ Attendance Register is an android based Attendance management solution.
 
 ### Admin Section
 
+Here are the few screenshots, for detailed UI guide [Click here](FEATURE_SCREENSHOT.md)
+
 |<img src="Documentation/Snapshots/Admin/admin_login.jpg" width="267">|<img src="Documentation/Snapshots/Admin/admin_main page.jpg" width="267">|<img src="Documentation/Snapshots/Admin/admin_drawer.jpg" width="267">|
 |:--:|:--:|:--:|
 |**Admin Authentication**|**Admin dashboard**|**Naviagtion drawer**|
 
 
 ### Faculty Section
+ Here are the few screenshots, for detailed UI guide [Click here](FEATURE_SCREENSHOT.md)
 
 |<img src="Documentation/Snapshots/Faculty/faculty_login.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/faculty_dashboard.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/faculty_navigation_drawer.jpg" width="267">|
 |:--:|:--:|:--:|
 |**Faculty authentication**|**Faculty Dashboard**|**Navigation Drawer**|
 
-
+## Note :
+Above I have Included only few screenshots , for detailed UI guide [Please Click here](FEATURE_SCREENSHOT.md)
 
 ## Tools Used
 * [Android Studio](https://developer.android.com/studio) : Used as the Android developement environment.
