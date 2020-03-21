@@ -9,7 +9,7 @@
 <a href="https://www.linkedin.com/in/saurabh17100" target="_blank"><img src="Documentation/icons/linkedin.svg" alt="Linkedin" ></a>
 </p>
 
-## Detailed UI guide (Feature screenshoots)
+## Detailed UI guide (Feature screenshots)
 
 ### Basic layout
 
@@ -65,10 +65,10 @@
 
 |<img src="Documentation/Snapshots/Faculty/indiviudal_date_attendance.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/update_previous_attendance_if_needed.jpg" width="267">|<img src="Documentation/Snapshots/Faculty/attendance_updated.jpg" width="267">|
 |:--:|:--:|:--:|
-|**by Individual date & subject**|**Edit previous attendance(as per need)**|**Updated successfully**|
+|**by Individual date & subject**|**Edit previous attendance records(as per need)**|**Updated successfully**|
 
 ## Future Possibilities and Extension of this project
-- biometric can be implemented and integrate using device like **Raspberry Pi**.
+- biometric can be implemented and integrate using a device like **Raspberry Pi**.
 - Online assignment submission.
 - Resource sharing & study material.
 - group discussion and doubt clearing.

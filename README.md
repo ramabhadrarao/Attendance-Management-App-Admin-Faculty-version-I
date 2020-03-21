@@ -9,14 +9,17 @@
 <a href="https://www.linkedin.com/in/saurabh17100" target="_blank"><img src="Documentation/icons/linkedin.svg" alt="Linkedin" ></a>
 </p>
 
-## About (Admin and Faculty Version)
-Attendance register is one of my favrouit projects because of its use , Many students wants to keep track of their attendace record basically University student because of minimum 75%  attendance criteria.This app will help student as well as teaching staff to do the same . Faculties no need to carry physical attendance sheet and calculating the records .And because of Real-time synchronization student can see their attendance as instant as marked by teacher.This project has future extension as well ,will discuss later in other section.
+## About 
+Attendance register is one of my favorite projects because of its use. Many students want to keep track of their attendance records, basically University students, because of a minimum 75%  attendance criteria. This app will help students as well as teaching staff to do the same. Faculties no need to carry a physical attendance sheet and calculate the records. And because of Real-time synchronization, students can see their attendance as instant as marked by the faculty. This project has a future extension as well, will discuss later in another section.
+|[Demo Video](https://www.youtube.com/watch?v=54h_mXpkWcM)|
+|--|
+
 
 ## Features
 - No paperwork required
 - keep all the attendance on cloud
-- No need to carry physical attendance sheet
-- No extra device required just use your mobile phone
+- No need to carry a physical attendance sheet
+- No extra device needed, just use your mobile phone
 - anytime access
 - No manual calculation required.
 - Total attendance, no of absent student all done automatically
@@ -32,8 +35,8 @@ Attendance register is one of my favrouit projects because of its use , Many stu
     - subject assign to student is also done by admin
 
 - **Faculty**
-    - Faculty has right to take action only related to assigned subject
-    - can enroll & remove student to assigned subject 
+    - Faculty has the privilege to take action, related to assigned subject only
+    - can enroll & remove a student to assigned subject 
     - can take attendance of assigned subject
     - can view and edit all previous attendance record
     - can see attendance individually by date
@@ -43,7 +46,7 @@ Attendance register is one of my favrouit projects because of its use , Many stu
 - Email verification.
 - Login details and device id verification to avoid fraud and Spamming.
 - device block if unusual activity detected.
-- Allows single device login per id at time.
+- Allows single session,per user id at time.
 
 # Screenshots #
 
@@ -78,7 +81,7 @@ Here are the few screenshots, for detailed UI guide [Click here](FEATURE_SCREENS
 |**Faculty authentication**|**Faculty Dashboard**|**Navigation Drawer**|
 
 ## Note :
-Above I have Included only few screenshots , for detailed UI guide [Please Click here](FEATURE_SCREENSHOT.md)
+Above I have included only a few screenshots, for detailed UI guide [Please Click here](FEATURE_SCREENSHOT.md)
 
 ## Tools Used
 * [Android Studio](https://developer.android.com/studio) : Used as the Android developement environment.
@@ -87,7 +90,7 @@ Above I have Included only few screenshots , for detailed UI guide [Please Click
 * [Firebase Authentication](https://firebase.google.com/products/auth) : Used to manage User information
 
 ## Future Possibilities and Extension of this project
-- biometric can be implemented and integrate using device like **Raspberry Pi**.
+- biometric can be implemented and integrate using a device like **Raspberry Pi**.
 - Online assignment submission.
 - Resource sharing & study material.
 - group discussion and doubt clearing.
@@ -99,7 +102,7 @@ You are welcome to contribute :
 2. Create new branch : `git checkout -b new_feature`
 3. Commit your changes : `git commit -am 'Added new_feature'`
 4. Push to the branch : `git push origin new_feature`
-5. Submit a pull request !
+5. Submit a pull request!
 
 ## Author 
 **Thanks for going through this Repository! Have a nice day.**</br>
