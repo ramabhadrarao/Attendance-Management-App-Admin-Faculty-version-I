@@ -1,4 +1,4 @@
-<p align="center"><img src="Documentation/icons/logo.png" width=100%></p>
+<p align="center"><img src="Documentation/icons/logo.png" width=75% h></p>
 
 <p align="center">
 <a href=""><img src="Documentation/icons/build.svg" target="_blank" alt="Build Status"></a>
@@ -10,20 +10,34 @@
 </p>
 
 ## About (Admin and Faculty Version)
-Attendance Register is an android based Attendance management solution.
+Attendance register is one of my favrouit projects because of its use , Many students wants to keep track of their attendace record basically University student because of minimum 75%  attendance criteria.This app will help student as well as teaching staff to do the same . Faculties no need to carry physical attendance sheet and calculating the records .And because of Real-time synchronization student can see their attendance as instant as marked by teacher.This project has future extension as well ,will discuss later in other section.
 
 ## Features
--
--
+- No paperwork required
+- keep all the attendance on cloud
+- No need to carry physical attendance sheet
+- No extra device required just use your mobile phone
+- anytime access
+- No manual calculation required.
+- Total attendance, no of absent student all done automatically
+- Student can see their attendance anytime they want
+- etc.
 
 ## Functionalities
 - **Admin**
-    - ..
-    - ..
+    - can register & remove faculty.
+    - can enroll & remove student.
+    - batch registration for new upcoming batch.
+    - assign & revoke subject to faculty
+    - subject assign to student is also done by admin
 
 - **Faculty**
-    - ..
-    - ..
+    - Faculty has right to take action only related to assigned subject
+    - can enroll & remove student to assigned subject 
+    - can take attendance of assigned subject
+    - can view and edit all previous attendance record
+    - can see attendance individually by date
+
 
 ## Security 
 - Email verification.
@@ -71,6 +85,12 @@ Above I have Included only few screenshots , for detailed UI guide [Please Click
 * [Firebase Realtime Database](https://firebase.google.com/products/realtime-database) : Used as the backend database.
 * [Firebase Storage](https://firebase.google.com/products/storage) : Use to store product Image
 * [Firebase Authentication](https://firebase.google.com/products/auth) : Used to manage User information
+
+## Future Possibilities and Extension of this project
+- biometric can be implemented and integrate using device like **Raspberry Pi**.
+- Online assignment submission.
+- Resource sharing & study material.
+- group discussion and doubt clearing.
 
 ## Contributing
 You are welcome to contribute :
