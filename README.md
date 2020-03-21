@@ -10,7 +10,7 @@
 </p>
 
 ## About 
-Attendance register is one of my favorite projects because of its use. Many students want to keep track of their attendance records, basically University students, because of a minimum 75%  attendance criteria. This app will help students as well as teaching staff to do the same. Faculties no need to carry a physical attendance sheet and calculate the records. And because of Real-time synchronization, students can see their attendance as instant as marked by the faculty. This project has a future extension as well, will discuss later in another section.
+Attendance register is one of my favorite projects because of its use. Many students want to keep track of their attendance records, basically University students, because of a minimum 75%  attendance criteria. This app will help students as well as teaching staff to do the same. Faculties don't need to carry a physical attendance sheet and calculate the records. And because of Real-time synchronization, students can see their attendance instantly as marked by the faculty. This project has a future extension as well, will discuss later in this section.
 |[Demo Video](https://www.youtube.com/watch?v=54h_mXpkWcM)|
 |--|
 
@@ -22,7 +22,7 @@ Attendance register is one of my favorite projects because of its use. Many stud
 - No extra device needed, just use your mobile phone
 - anytime access
 - No manual calculation required.
-- Total attendance, no of absent student all done automatically
+- Total attendance, absent/preset all will be taken care by system itself
 - Student can see their attendance anytime they want
 - etc.
 
@@ -32,7 +32,7 @@ Attendance register is one of my favorite projects because of its use. Many stud
     - can enroll & remove student.
     - batch registration for new upcoming batch.
     - assign & revoke subject to faculty
-    - subject assign to student is also done by admin
+    - subject enrollment for student is also done by admin
 
 - **Faculty**
     - Faculty has the privilege to take action, related to assigned subject only
