@@ -291,8 +291,19 @@ public class facultydashboard extends AppCompatActivity
            Intent logout=new Intent(getApplicationContext(),MainActivity.class);
            logout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
            startActivity(logout);
-
         }
+
+        // just add else if statement for attendance creation activity
+
+        else if (id == R.id.nav_fac_atten_sheet_creation_btn){
+            Intent intent=new Intent(this,fac_create_new_attendenceshet.class);
+            intent.putExtra("ttid",tid);
+            startActivity(intent);
+        }
+
+        // required code end here
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
