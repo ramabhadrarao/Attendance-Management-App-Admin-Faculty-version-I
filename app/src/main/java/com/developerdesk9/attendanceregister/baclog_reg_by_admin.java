@@ -60,7 +60,7 @@ public class baclog_reg_by_admin extends AppCompatActivity {
 
         facsubjectdetails= FirebaseDatabase.getInstance().getReference("FacultySubjectDetails");
         studentenrolledsub=FirebaseDatabase.getInstance().getReference("StuEnSubDetails");
-        student=FirebaseDatabase.getInstance().getReference("Student");
+        student=FirebaseDatabase.getInstance().getReference("StudentSubDeatails");
 
 
         mDialog=new ProgressDialog(this);
@@ -193,7 +193,7 @@ public class baclog_reg_by_admin extends AppCompatActivity {
                 if (task.isSuccessful()){
 
                     Subject subject=new Subject(itemfacsublist);
-                    student.child(sid).child("Subject").child(itemfacsublist).setValue(subject);
+                    student.child(sid).child(itemfacsublist).setValue(subject);
                     mDialog.dismiss();
                     finish();
                     Toast.makeText(getApplicationContext(),"Student Added Successfully", Toast.LENGTH_LONG).show();

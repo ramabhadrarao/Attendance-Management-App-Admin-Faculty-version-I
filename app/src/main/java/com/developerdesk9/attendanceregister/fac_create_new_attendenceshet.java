@@ -48,7 +48,7 @@ public class fac_create_new_attendenceshet extends AppCompatActivity {
         facsubjectdetails= FirebaseDatabase.getInstance().getReference("FacultySubjectDetails");
         batchdetails=FirebaseDatabase.getInstance().getReference("Batchdetails");
         studentenrolledsub=FirebaseDatabase.getInstance().getReference("StuEnSubDetails");
-        student=FirebaseDatabase.getInstance().getReference("Student");
+        student=FirebaseDatabase.getInstance().getReference("StudentSubDeatails");
 
 
 
@@ -145,7 +145,7 @@ public class fac_create_new_attendenceshet extends AppCompatActivity {
         batchdetails batchdetailss=new batchdetails(ssid,sname);
         studentenrolledsub.child(itemfacsublist).child(ssid).setValue(batchdetailss);
         Subject subject=new Subject(itemfacsublist);
-        student.child(ssid).child("Subject").child(itemfacsublist).setValue(subject);
+        student.child(ssid).child(itemfacsublist).setValue(subject);
         return;
 
     }

@@ -57,7 +57,7 @@ public class backlogstdregisteration_tosubject extends AppCompatActivity {
 
         facsubjectdetails= FirebaseDatabase.getInstance().getReference("FacultySubjectDetails");
         studentenrolledsub=FirebaseDatabase.getInstance().getReference("StuEnSubDetails");
-        student=FirebaseDatabase.getInstance().getReference("Student");
+        student=FirebaseDatabase.getInstance().getReference("StudentSubDeatails");
 
         final List<String> lstfacsub=new ArrayList<String>();
         lstfacsub.add("Select Subject");
@@ -135,7 +135,7 @@ public class backlogstdregisteration_tosubject extends AppCompatActivity {
                 if (task.isSuccessful()){
 
                     Subject subject=new Subject(itemfacsublist);
-                    student.child(sid).child("Subject").child(itemfacsublist).setValue(subject);
+                    student.child(sid).child(itemfacsublist).setValue(subject);
                     mDialog.dismiss();
                     finish();
                     Toast.makeText(getApplicationContext(),"Student Added Successfully", Toast.LENGTH_LONG).show();
