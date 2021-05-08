@@ -15,8 +15,11 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +34,7 @@ public class collective_batch_creation_mid1 extends AppCompatActivity {
     Button addstdbtn;
     DatabaseReference databaseStudent;
     DatabaseReference batchdetails;
+    DatabaseReference dbbatchname;
     ProgressDialog mDialog;
     int i=0,j=0;
 
@@ -49,15 +53,11 @@ public class collective_batch_creation_mid1 extends AppCompatActivity {
 
         databaseStudent = FirebaseDatabase.getInstance().getReference("Student");
         batchdetails=FirebaseDatabase.getInstance().getReference("Batchdetails");
+        dbbatchname=FirebaseDatabase.getInstance().getReference("BatchName");
 
-        List<String> lstbatch=new ArrayList<String>();
+        final List<String> lstbatch=new ArrayList<String>();
         lstbatch.add("Select Batch");
-        for(int i=2016;i<=2030;i++)
-        {
-            String a=String.valueOf(i);
-            lstbatch.add("CSE"+a);
-            lstbatch.add("ECE"+a);
-        }
+
 
         ArrayAdapter<String> batcharrayadapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,lstbatch);
         batcharrayadapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -71,6 +71,23 @@ public class collective_batch_creation_mid1 extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        dbbatchname.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                for(DataSnapshot dsp :dataSnapshot.getChildren()){
+                    String name;
+                    name=dsp.getKey();
+                    lstbatch.add(name);
+
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
